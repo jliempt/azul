@@ -3,15 +3,36 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 54;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		62B57489281942E100974CE2 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 62B5748C281942E100974CE2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				62B5748D2819437900974CE2 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		BE2F78DA274B2E3B007E89C4 /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEAEFA722CE7C3B0038F259 /* libgmp.a */; };
-		BE2F78DB274B2E3B007E89C4 /* libmpfr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BEEAEFA922CE7C3B0038F259 /* libmpfr.a */; };
-		BE2F78DE274B2E3B007E89C4 /* libpugixml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F78DD274B2E3B007E89C4 /* libpugixml.a */; };
-		BE2F78E1274B3AF6007E89C4 /* libboost_thread.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F78DF274B3AF6007E89C4 /* libboost_thread.a */; };
-		BE2F78E2274B3AF6007E89C4 /* libboost_system.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE2F78E0274B3AF6007E89C4 /* libboost_system.a */; };
+		62B5749E2819443A00974CE2 /* stb_image.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62B5749D2819443A00974CE2 /* stb_image.cpp */; };
+		62B574B3281944A700974CE2 /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 62B574B2281944A700974CE2 /* glad.c */; };
+		62FD0D5E2817E7E700079570 /* libgmp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FD0D5D2817E7CD00079570 /* libgmp.a */; };
+		62FD0D602817F1A200079570 /* libpugixml.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FD0D5F2817F1A200079570 /* libpugixml.a */; };
+		62FD0DB7281808B000079570 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62FD0DB6281808B000079570 /* main.cpp */; };
+		62FD0DB92818563700079570 /* libglfw.3.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FD0DB82818563700079570 /* libglfw.3.3.dylib */; };
+		62FD0DBA2818563700079570 /* libglfw.3.3.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 62FD0DB82818563700079570 /* libglfw.3.3.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		62FD0DBD2818565100079570 /* libassimp.5.2.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FD0DBC2818565100079570 /* libassimp.5.2.0.dylib */; };
+		62FD0DBE2818565100079570 /* libassimp.5.2.0.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 62FD0DBC2818565100079570 /* libassimp.5.2.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		62FD0DC02818566900079570 /* libfreetype.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62FD0DBF2818566900079570 /* libfreetype.6.dylib */; };
+		62FD0DC12818566900079570 /* libfreetype.6.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 62FD0DBF2818566900079570 /* libfreetype.6.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		62FD0DE32818623700079570 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 62FD0DE22818623700079570 /* main.cpp */; };
 		BE2F78ED274B576E007E89C4 /* simdjson.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE2F78EB274B576E007E89C4 /* simdjson.cpp */; };
 		BE5724631F78FAAD008F4D54 /* TableCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5724621F78FAAD008F4D54 /* TableCellView.m */; };
 		BE7254FA1F711D87006E5AC8 /* DataManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BE7254F91F711D87006E5AC8 /* DataManager.cpp */; };
@@ -35,7 +56,94 @@
 		BEF69F531F6AA9540079531B /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF69F521F6AA9540079531B /* Math.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		62B5749F2819444500974CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF69F351F6AA0520079531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B57489281942E100974CE2;
+			remoteInfo = ZERO_CHECK;
+		};
+		62B574B02819448B00974CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF69F351F6AA0520079531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B57489281942E100974CE2;
+			remoteInfo = ZERO_CHECK;
+		};
+		62B574B4281944BC00974CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF69F351F6AA0520079531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B57489281942E100974CE2;
+			remoteInfo = ZERO_CHECK;
+		};
+		62B574B6281944C000974CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF69F351F6AA0520079531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B57491281943B500974CE2;
+			remoteInfo = STB_IMAGE;
+		};
+		62B574B8281944C400974CE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEF69F351F6AA0520079531B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62B574A42819447E00974CE2;
+			remoteInfo = GLAD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		62FD0DBB2818563700079570 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				62FD0DC12818566900079570 /* libfreetype.6.dylib in Embed Libraries */,
+				62FD0DBE2818565100079570 /* libassimp.5.2.0.dylib in Embed Libraries */,
+				62FD0DBA2818563700079570 /* libglfw.3.3.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FD0DDE2818623700079570 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		62B57492281943B500974CE2 /* libSTB_IMAGE.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libSTB_IMAGE.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B57494281943B500974CE2 /* STB_IMAGE.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STB_IMAGE.hpp; sourceTree = "<group>"; };
+		62B57496281943B500974CE2 /* STB_IMAGEPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = STB_IMAGEPriv.hpp; sourceTree = "<group>"; };
+		62B57498281943B500974CE2 /* STB_IMAGE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = STB_IMAGE.cpp; sourceTree = "<group>"; };
+		62B5749D2819443A00974CE2 /* stb_image.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = stb_image.cpp; path = ../LearnOpenGL/src/stb_image.cpp; sourceTree = "<group>"; };
+		62B574A52819447E00974CE2 /* libGLAD.a */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libGLAD.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		62B574A72819447E00974CE2 /* GLAD.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLAD.hpp; sourceTree = "<group>"; };
+		62B574A92819447E00974CE2 /* GLADPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = GLADPriv.hpp; sourceTree = "<group>"; };
+		62B574AB2819447E00974CE2 /* GLAD.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GLAD.cpp; sourceTree = "<group>"; };
+		62B574B2281944A700974CE2 /* glad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glad.c; path = ../LearnOpenGL/src/glad.c; sourceTree = "<group>"; };
+		62CC287728173FFB00A1BF62 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = ../../../../opt/homebrew/Cellar/boost/1.78.0_1/lib/libboost_system.a; sourceTree = "<group>"; };
+		62FD0D5D2817E7CD00079570 /* libgmp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmp.a; path = ../../../../opt/homebrew/Cellar/gmp/6.2.1_1/lib/libgmp.a; sourceTree = "<group>"; };
+		62FD0D5F2817F1A200079570 /* libpugixml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpugixml.a; path = ../../../../opt/homebrew/Cellar/pugixml/1.12.1/lib/libpugixml.a; sourceTree = "<group>"; };
+		62FD0DB6281808B000079570 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		62FD0DB82818563700079570 /* libglfw.3.3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.3.dylib; path = ../../../../opt/homebrew/Cellar/glfw/3.3.7/lib/libglfw.3.3.dylib; sourceTree = "<group>"; };
+		62FD0DBC2818565100079570 /* libassimp.5.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.5.2.0.dylib; path = ../../../../opt/homebrew/Cellar/assimp/5.2.3/lib/libassimp.5.2.0.dylib; sourceTree = "<group>"; };
+		62FD0DBF2818566900079570 /* libfreetype.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.6.dylib; path = ../../../../opt/homebrew/Cellar/freetype/2.12.0/lib/libfreetype.6.dylib; sourceTree = "<group>"; };
+		62FD0DC22818569100079570 /* libGLAD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLAD.a; path = ../LearnOpenGL/xcode/Debug/libGLAD.a; sourceTree = "<group>"; };
+		62FD0DC4281856C600079570 /* libSTB_IMAGE.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libSTB_IMAGE.a; path = ../LearnOpenGL/xcode/Debug/libSTB_IMAGE.a; sourceTree = "<group>"; };
+		62FD0DCC28185D6300079570 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		62FD0DD128185E8800079570 /* libassimp.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.dylib; path = ../../../../opt/homebrew/Cellar/assimp/5.2.3/lib/libassimp.dylib; sourceTree = "<group>"; };
+		62FD0DD528185E9500079570 /* libfreetype.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libfreetype.dylib; path = ../../../../opt/homebrew/Cellar/freetype/2.12.0/lib/libfreetype.dylib; sourceTree = "<group>"; };
+		62FD0DE02818623700079570 /* azul-opengl */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "azul-opengl"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62FD0DE22818623700079570 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BE2F78DD274B2E3B007E89C4 /* libpugixml.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libpugixml.a; path = libs/libpugixml.a; sourceTree = "<group>"; };
 		BE2F78DF274B3AF6007E89C4 /* libboost_thread.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_thread.a; path = libs/libboost_thread.a; sourceTree = "<group>"; };
 		BE2F78E0274B3AF6007E89C4 /* libboost_system.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libboost_system.a; path = libs/libboost_system.a; sourceTree = "<group>"; };
@@ -91,21 +199,78 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		62B57490281943B500974CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B574A32819447E00974CE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FD0DDD2818623700079570 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF69F3A1F6AA0520079531B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BE2F78E1274B3AF6007E89C4 /* libboost_thread.a in Frameworks */,
-				BE2F78E2274B3AF6007E89C4 /* libboost_system.a in Frameworks */,
-				BE2F78DE274B2E3B007E89C4 /* libpugixml.a in Frameworks */,
-				BE2F78DA274B2E3B007E89C4 /* libgmp.a in Frameworks */,
-				BE2F78DB274B2E3B007E89C4 /* libmpfr.a in Frameworks */,
+				62FD0DBD2818565100079570 /* libassimp.5.2.0.dylib in Frameworks */,
+				62FD0DB92818563700079570 /* libglfw.3.3.dylib in Frameworks */,
+				62FD0DC02818566900079570 /* libfreetype.6.dylib in Frameworks */,
+				62FD0D602817F1A200079570 /* libpugixml.a in Frameworks */,
+				62FD0D5E2817E7E700079570 /* libgmp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		62B57493281943B500974CE2 /* STB_IMAGE */ = {
+			isa = PBXGroup;
+			children = (
+				62B57494281943B500974CE2 /* STB_IMAGE.hpp */,
+				62B57496281943B500974CE2 /* STB_IMAGEPriv.hpp */,
+				62B57498281943B500974CE2 /* STB_IMAGE.cpp */,
+			);
+			path = STB_IMAGE;
+			sourceTree = "<group>";
+		};
+		62B574A62819447E00974CE2 /* GLAD */ = {
+			isa = PBXGroup;
+			children = (
+				62B574A72819447E00974CE2 /* GLAD.hpp */,
+				62B574A92819447E00974CE2 /* GLADPriv.hpp */,
+				62B574AB2819447E00974CE2 /* GLAD.cpp */,
+			);
+			path = GLAD;
+			sourceTree = "<group>";
+		};
+		62FD0DCB28185D6300079570 /* azul-opengl */ = {
+			isa = PBXGroup;
+			children = (
+				62FD0DCC28185D6300079570 /* main.cpp */,
+			);
+			path = "azul-opengl";
+			sourceTree = "<group>";
+		};
+		62FD0DE12818623700079570 /* azul-opengl */ = {
+			isa = PBXGroup;
+			children = (
+				62FD0DE22818623700079570 /* main.cpp */,
+			);
+			path = "azul-opengl";
+			sourceTree = "<group>";
+		};
 		BE8C43CE1F8D1CB50021CA0B /* Icons */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +320,16 @@
 		BED5AF651F6FC8470002A79E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62FD0DD528185E9500079570 /* libfreetype.dylib */,
+				62FD0DD128185E8800079570 /* libassimp.dylib */,
+				62FD0DC4281856C600079570 /* libSTB_IMAGE.a */,
+				62FD0DC22818569100079570 /* libGLAD.a */,
+				62FD0DBF2818566900079570 /* libfreetype.6.dylib */,
+				62FD0DBC2818565100079570 /* libassimp.5.2.0.dylib */,
+				62FD0DB82818563700079570 /* libglfw.3.3.dylib */,
+				62FD0D5F2817F1A200079570 /* libpugixml.a */,
+				62FD0D5D2817E7CD00079570 /* libgmp.a */,
+				62CC287728173FFB00A1BF62 /* libboost_system.a */,
 				BE2F78E6274B4DB2007E89C4 /* libsimdjson.a */,
 				BE2F78E8274B4DF7007E89C4 /* libsimdjson.a */,
 				BE2F78E0274B3AF6007E89C4 /* libboost_system.a */,
@@ -175,12 +350,18 @@
 		BEF69F341F6AA0520079531B = {
 			isa = PBXGroup;
 			children = (
+				62B574B2281944A700974CE2 /* glad.c */,
+				62B5749D2819443A00974CE2 /* stb_image.cpp */,
 				BEF69F481F6AA0520079531B /* azul.entitlements */,
 				BEA2DACF1F705479002FBEF4 /* LICENSE */,
 				BEA2DAD01F705482002FBEF4 /* README.md */,
 				BE89E06422D3C5AF003BBA86 /* PRIVACY.md */,
 				BEB3C3511F8E5C8A00F14F1A /* libs */,
 				BEF69F3F1F6AA0520079531B /* src */,
+				62FD0DCB28185D6300079570 /* azul-opengl */,
+				62FD0DE12818623700079570 /* azul-opengl */,
+				62B57493281943B500974CE2 /* STB_IMAGE */,
+				62B574A62819447E00974CE2 /* GLAD */,
 				BEF69F3E1F6AA0520079531B /* Products */,
 				BED5AF651F6FC8470002A79E /* Frameworks */,
 			);
@@ -190,6 +371,9 @@
 			isa = PBXGroup;
 			children = (
 				BEF69F3D1F6AA0520079531B /* azul.app */,
+				62FD0DE02818623700079570 /* azul-opengl */,
+				62B57492281943B500974CE2 /* libSTB_IMAGE.a */,
+				62B574A52819447E00974CE2 /* libGLAD.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -200,6 +384,7 @@
 				BE8C43CE1F8D1CB50021CA0B /* Icons */,
 				BED5AF601F6FC49D0002A79E /* DataManager */,
 				BEF69F401F6AA0520079531B /* Controller.swift */,
+				62FD0DB6281808B000079570 /* main.cpp */,
 				BEF69F501F6AA4C30079531B /* Shaders.metal */,
 				BEF69F4E1F6AA0EC0079531B /* MetalView.swift */,
 				BEF69F521F6AA9540079531B /* Math.swift */,
@@ -215,6 +400,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		62B57491281943B500974CE2 /* STB_IMAGE */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B5749A281943B500974CE2 /* Build configuration list for PBXNativeTarget "STB_IMAGE" */;
+			buildPhases = (
+				62B5748F281943B500974CE2 /* Sources */,
+				62B57490281943B500974CE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B574A02819444500974CE2 /* PBXTargetDependency */,
+			);
+			name = STB_IMAGE;
+			productName = STB_IMAGE;
+			productReference = 62B57492281943B500974CE2 /* libSTB_IMAGE.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		62B574A42819447E00974CE2 /* GLAD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62B574AD2819447E00974CE2 /* Build configuration list for PBXNativeTarget "GLAD" */;
+			buildPhases = (
+				62B574A22819447E00974CE2 /* Sources */,
+				62B574A32819447E00974CE2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B574B12819448B00974CE2 /* PBXTargetDependency */,
+			);
+			name = GLAD;
+			productName = GLAD;
+			productReference = 62B574A52819447E00974CE2 /* libGLAD.a */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		62FD0DDF2818623700079570 /* azul-opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62FD0DE42818623700079570 /* Build configuration list for PBXNativeTarget "azul-opengl" */;
+			buildPhases = (
+				62FD0DDC2818623700079570 /* Sources */,
+				62FD0DDD2818623700079570 /* Frameworks */,
+				62FD0DDE2818623700079570 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62B574B5281944BC00974CE2 /* PBXTargetDependency */,
+				62B574B7281944C000974CE2 /* PBXTargetDependency */,
+				62B574B9281944C400974CE2 /* PBXTargetDependency */,
+			);
+			name = "azul-opengl";
+			productName = "azul-opengl";
+			productReference = 62FD0DE02818623700079570 /* azul-opengl */;
+			productType = "com.apple.product-type.tool";
+		};
 		BEF69F3C1F6AA0520079531B /* azul */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF69F4B1F6AA0520079531B /* Build configuration list for PBXNativeTarget "azul" */;
@@ -222,6 +461,7 @@
 				BEF69F391F6AA0520079531B /* Sources */,
 				BEF69F3A1F6AA0520079531B /* Frameworks */,
 				BEF69F3B1F6AA0520079531B /* Resources */,
+				62FD0DBB2818563700079570 /* Embed Libraries */,
 			);
 			buildRules = (
 			);
@@ -242,6 +482,19 @@
 				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = "Ken Arroyo Ohori";
 				TargetAttributes = {
+					62B57489281942E100974CE2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					62B57491281943B500974CE2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					62B574A42819447E00974CE2 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					62FD0DDF2818623700079570 = {
+						CreatedOnToolsVersion = 13.3;
+						ProvisioningStyle = Automatic;
+					};
 					BEF69F3C1F6AA0520079531B = {
 						CreatedOnToolsVersion = 9.0;
 						LastSwiftMigration = 1020;
@@ -263,6 +516,10 @@
 			projectRoot = "";
 			targets = (
 				BEF69F3C1F6AA0520079531B /* azul */,
+				62FD0DDF2818623700079570 /* azul-opengl */,
+				62B57489281942E100974CE2 /* ZERO_CHECK */,
+				62B57491281943B500974CE2 /* STB_IMAGE */,
+				62B574A42819447E00974CE2 /* GLAD */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +546,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62B5748D2819437900974CE2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nif test \"$CONFIGURATION\" = \"Debug\"; then :\n  cd /Users/I557621/Repositories/LearnOpenGL/xcode\n  make -f /Users/I557621/Repositories/LearnOpenGL/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"Release\"; then :\n  cd /Users/I557621/Repositories/LearnOpenGL/xcode\n  make -f /Users/I557621/Repositories/LearnOpenGL/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"MinSizeRel\"; then :\n  cd /Users/I557621/Repositories/LearnOpenGL/xcode\n  make -f /Users/I557621/Repositories/LearnOpenGL/xcode/CMakeScripts/ReRunCMake.make\nfi\nif test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :\n  cd /Users/I557621/Repositories/LearnOpenGL/xcode\n  make -f /Users/I557621/Repositories/LearnOpenGL/xcode/CMakeScripts/ReRunCMake.make\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		62B5748F281943B500974CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B5749E2819443A00974CE2 /* stb_image.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B574A22819447E00974CE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62B574B3281944A700974CE2 /* glad.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62FD0DDC2818623700079570 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62FD0DE32818623700079570 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEF69F391F6AA0520079531B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,11 +605,40 @@
 				BEF69F411F6AA0520079531B /* Controller.swift in Sources */,
 				BE5724631F78FAAD008F4D54 /* TableCellView.m in Sources */,
 				BED5AF751F6FD2480002A79E /* PerformanceHelperWrapperWrapper.mm in Sources */,
+				62FD0DB7281808B000079570 /* main.cpp in Sources */,
 				BEF69F531F6AA9540079531B /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62B574A02819444500974CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B57489281942E100974CE2 /* ZERO_CHECK */;
+			targetProxy = 62B5749F2819444500974CE2 /* PBXContainerItemProxy */;
+		};
+		62B574B12819448B00974CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B57489281942E100974CE2 /* ZERO_CHECK */;
+			targetProxy = 62B574B02819448B00974CE2 /* PBXContainerItemProxy */;
+		};
+		62B574B5281944BC00974CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B57489281942E100974CE2 /* ZERO_CHECK */;
+			targetProxy = 62B574B4281944BC00974CE2 /* PBXContainerItemProxy */;
+		};
+		62B574B7281944C000974CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B57491281943B500974CE2 /* STB_IMAGE */;
+			targetProxy = 62B574B6281944C000974CE2 /* PBXContainerItemProxy */;
+		};
+		62B574B9281944C400974CE2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62B574A42819447E00974CE2 /* GLAD */;
+			targetProxy = 62B574B8281944C400974CE2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BEF69F441F6AA0520079531B /* MainMenu.xib */ = {
@@ -320,6 +652,374 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		62B5748A281942E100974CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		62B5748B281942E100974CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		62B5749B281943B500974CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++17'";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		62B5749C281943B500974CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++17'";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = STB_IMAGE;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		62B574AE2819447E00974CE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		62B574AF2819447E00974CE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LIBTOOLFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = GLAD;
+				SECTORDER_FLAGS = "";
+				SKIP_INSTALL = YES;
+				SYMROOT = /Users/I557621/Repositories/LearnOpenGL/xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		62FD0DE52818623700079570 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/I557621/Repositories/LearnOpenGL/bin/1.getting_started;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = src/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/I557621/Repositories/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++17'";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw.dylib,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libSTB_IMAGE.a,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libGLAD.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = tudelft3d.azul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		62FD0DE62818623700079570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = /Users/I557621/Repositories/LearnOpenGL/bin/1.getting_started;
+				DEFINES_MODULE = NO;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/System/Library/Frameworks,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/configuration,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = src/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"/Users/I557621/Repositories/LearnOpenGL/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++17'";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					Cocoa,
+					"-framework",
+					IOKit,
+					"-framework",
+					OpenGL,
+					"-framework",
+					CoreVideo,
+					/opt/homebrew/lib/libglfw.dylib,
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Release/libSTB_IMAGE.a,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Release/libGLAD.a,
+					"$(inherited)",
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = tudelft3d.azul;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
 		BEF69F491F6AA0520079531B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -371,12 +1071,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					/opt/homebrew/opt/boost/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/lib;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ken/Versioned/azul/src/Azul-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/src/Azul-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -427,11 +1132,17 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/homebrew/include,
+					/opt/homebrew/opt/boost/include,
+				);
+				LIBRARY_SEARCH_PATHS = /opt/homebrew/lib;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ken/Versioned/azul/src/Azul-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/src/Azul-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -448,29 +1159,43 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = UD3V83TPY7;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					"\"$(SRCROOT)/src/DataManager\"",
+					/opt/homebrew/include,
+					/opt/homebrew/Cellar/gmp/6.2.1_1/include,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
 				);
 				INFOPLIST_FILE = src/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/libs",
-					/usr/local/Cellar/simdjson/1.0.2/lib,
-					"$(PROJECT_DIR)/libs\\ bak",
+					/opt/homebrew/lib,
+					/opt/homebrew/Cellar/gmp/6.2.1_1/lib,
+					/opt/homebrew/Cellar/pugixml/1.12.1/lib,
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					/opt/homebrew/Cellar/glfw/3.3.7/lib,
+					/opt/homebrew/Cellar/assimp/5.2.3/lib,
+					/opt/homebrew/Cellar/freetype/2.12.0/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 0.9.1;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libglfw.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libGLAD.a,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libSTB_IMAGE.a,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tudelft3d.azul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ken/Versioned/azul/src/Azul-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/src/Azul-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -488,28 +1213,42 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = NO;
-				DEVELOPMENT_TEAM = UD3V83TPY7;
+				DEVELOPMENT_TEAM = 25MS76GHTA;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = NO;
 				HEADER_SEARCH_PATHS = (
-					/usr/local/include,
-					"\"$(SRCROOT)/src/DataManager\"",
+					/opt/homebrew/include,
+					/opt/homebrew/Cellar/gmp/6.2.1_1/include,
+					/Users/I557621/Repositories/LearnOpenGL/includes,
 				);
 				INFOPLIST_FILE = src/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				LIBRARY_SEARCH_PATHS = (
-					"$(PROJECT_DIR)",
-					"$(PROJECT_DIR)/libs",
-					/usr/local/Cellar/simdjson/1.0.2/lib,
-					"$(PROJECT_DIR)/libs\\ bak",
+					/opt/homebrew/lib,
+					/opt/homebrew/Cellar/gmp/6.2.1_1/lib,
+					/opt/homebrew/Cellar/pugixml/1.12.1/lib,
+					/Users/I557621/Repositories/LearnOpenGL/lib,
+					/opt/homebrew/Cellar/glfw/3.3.7/lib,
+					/opt/homebrew/Cellar/assimp/5.2.3/lib,
+					/opt/homebrew/Cellar/freetype/2.12.0/lib,
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 0.9.1;
 				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				OTHER_LDFLAGS = (
+					/opt/homebrew/lib/libassimp.dylib,
+					/opt/homebrew/lib/libglfw.dylib,
+					/opt/homebrew/lib/libfreetype.dylib,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libGLAD.a,
+					/Users/I557621/Repositories/LearnOpenGL/xcode/Debug/libSTB_IMAGE.a,
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tudelft3d.azul;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ken/Versioned/azul/src/Azul-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/src/Azul-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 			};
@@ -518,6 +1257,42 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		62B5748C281942E100974CE2 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B5748A281942E100974CE2 /* Debug */,
+				62B5748B281942E100974CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B5749A281943B500974CE2 /* Build configuration list for PBXNativeTarget "STB_IMAGE" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B5749B281943B500974CE2 /* Debug */,
+				62B5749C281943B500974CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62B574AD2819447E00974CE2 /* Build configuration list for PBXNativeTarget "GLAD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62B574AE2819447E00974CE2 /* Debug */,
+				62B574AF2819447E00974CE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62FD0DE42818623700079570 /* Build configuration list for PBXNativeTarget "azul-opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62FD0DE52818623700079570 /* Debug */,
+				62FD0DE62818623700079570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEF69F381F6AA0520079531B /* Build configuration list for PBXProject "azul" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
